@@ -1,5 +1,10 @@
 <template>
   <div id="app">
+    <div class = "menu">
+      <a href="#">Portfolio</a>
+      <a href="#">Contact</a>
+    </div>
+
     <div class = "terminal-div">
     <Terminal/>
     </div>
@@ -18,6 +23,7 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css?family=Muli');
 html, 
 body{
   height: 100%;
@@ -31,16 +37,33 @@ body{
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+
+
+}
+.name{
   
-
-
-}
-.terminal-div{
- 
-
+  font-size: 70px;
+  margin-bottom:30px;
+  color:#71677C;
+  font-family: 'Muli', sans-serif;
 
 }
+
+.menu{
+  margin-bottom:80px;
+  
+}
+.menu a{
+  font-family: 'Tajawal', sans-serif;
+color:#71677C;
+  text-decoration: none;
+  font-size:26px;
+  padding:5px;
+}
+.menu a:visited{
+  color:#71677C;
+}
+
 .terminal{
   width:100%;
   margin:0 auto;

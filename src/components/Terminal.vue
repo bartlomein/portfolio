@@ -27,7 +27,7 @@
           
             <div class = "terminal-text element">
                 <vue-typer
-                  :text='["> Hi!\n> My name is Bartlomiej Tyrpien and I am a web developer from New Jersey.\n> My passion lies in creating beautiful, creative websites.\n> On the weekend you can find me fiddling with synthesizers and enjoying nature.\n> Please take a look at some of my work below!"]'
+                  :text='["> Hi!\n> My name is Bartlomiej Tyrpien and I am a web developer from New Jersey.\n> My passion lies in creating beautiful, creative websites.\n> Please take a look at some of my work below!"]'
                   :repeat='0'
                   :shuffle='false'
                   initial-action='typing'
