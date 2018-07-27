@@ -1,8 +1,11 @@
 <template>
   <div class="terminal">
+     <transition appear
+                  appear-active-class="fade-enter-codeguy">
     <div class = "guy-inside-terminal">
           <CodeGuy/>
           </div>
+     </transition>
     <div class="container">
 
       <transition appear
@@ -72,9 +75,10 @@ export default {
   height: 100%;
 }
 .guy-inside-terminal{
-  position:absolute;
-  top:0px;
-  right:0px;
+  position:fixed;
+  width:300px;
+  top:200px;
+  right:40px;
   z-index: 123;
 }
 /*TERMINAL*/
@@ -169,7 +173,24 @@ export default {
   
 
 }
+.fade-enter-codeguy {
+  animation: codeguy 0.5s;
+   animation-timing-function: easeInCirc;
+  animation-fill-mode: both;
+  animation-delay: 1s;
 
+}
+
+@keyframes codeguy {
+  from {
+    border-radius: 100px;
+    transform: scale(0)
+  }
+  to {
+    border-radius: 0px;
+    transform: scale(1)
+  }
+}
 @keyframes expand {
   from {
     

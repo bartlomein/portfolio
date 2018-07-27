@@ -1,6 +1,6 @@
 <template>
     <div class="contact-top">
-        test
+        
     </div>
 </template>
 

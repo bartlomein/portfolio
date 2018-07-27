@@ -223,7 +223,7 @@ export default {
 
  .cls-1 {
      fill-opacity: 0;
-     
+
       }
        .cls-white {
 fill:white;
@@ -243,10 +243,12 @@ fill:white;
 
       .cls-5 {
         fill: #f5e6f2;
+        fill-opacity: 0;
       }
 
       .cls-6 {
         fill: #dea979;
+        
       }
 
       .cls-7 {
@@ -737,6 +739,6 @@ fill:white;
         fill: #ac7d5a;
       }
       .code-guy-svg{
-          width:20%;
+          max-width:200px;
       }
 </style>
