@@ -1,23 +1,27 @@
 <template>
   <div id="app">
-    <div class = "menu">
-      <a href="#">Portfolio</a>
-      <a href="#">Contact</a>
-    </div>
-
-    <div class = "terminal-div">
-    <Terminal/>
-    </div>
+    <TopMenu/>
+      <div class = "terminal-div">
+        <Terminal/>
+        
+      </div>
+      <div class = "contact-top-container">
+        <ContactTop/>
+      </div>
+      
   </div>
 </template>
 
 <script>
 import Terminal from './components/Terminal.vue'
+import TopMenu from './components/TopMenu.vue'
+import ContactTop from './components/ContactTop.vue'
+
 
 export default {
   name: 'app',
   components: {
-    Terminal
+    Terminal,TopMenu,ContactTop
   }
 }
 </script>
@@ -37,6 +41,8 @@ body{
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  max-width:1000px;
+  margin:0 auto;
 
 
 }
@@ -49,20 +55,7 @@ body{
 
 }
 
-.menu{
-  margin-bottom:80px;
-  
-}
-.menu a{
-  font-family: 'Tajawal', sans-serif;
-color:#71677C;
-  text-decoration: none;
-  font-size:26px;
-  padding:5px;
-}
-.menu a:visited{
-  color:#71677C;
-}
+
 
 .terminal{
   width:100%;
@@ -80,7 +73,7 @@ color:#71677C;
 .vue-typer .custom.char {
   color: white;
   font-weight:500;
-  line-height: 40px;
+line-height: 40px;
   background-color: #3A405A;
 }
 .vue-typer .custom.char.selected {
@@ -89,6 +82,7 @@ color:#71677C;
 
 .vue-typer .custom.caret {
   width: 10px;
+  height:20px;
   background-color: #99B2DD;
 }
 </style>

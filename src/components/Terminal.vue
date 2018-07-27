@@ -1,9 +1,14 @@
 <template>
   <div class="terminal">
+    <div class = "guy-inside-terminal">
+          <CodeGuy/>
+          </div>
     <div class="container">
+
       <transition appear
                   appear-active-class="fade-enter-textarea">
         <div class="terminal-container">
+          
           <transition appear
                   appear-active-class="fade-enter-bar">
             <div class = "top-terminal-bar">
@@ -42,23 +47,36 @@
             </div>
           
 
-        </div>
+        </div> 
         </transition>
+       
     </div>
   </div>
 </template>
 
 <script>
+import CodeGuy from './CodeGuy.vue'
 export default {
   name: "Terminal",
-  props: {
-    msg: String
+  components: {
+    CodeGuy
   }
 };
 </script>
 
 
 <style scoped>
+.terminal{
+  position:relative;
+  z-index: 1;
+  height: 100%;
+}
+.guy-inside-terminal{
+  position:absolute;
+  top:0px;
+  right:0px;
+  z-index: 123;
+}
 /*TERMINAL*/
 .terminal-container {
   background-color: #3A405A;
@@ -66,6 +84,7 @@ export default {
   height: 280px;
   color: white;
   border-radius: 10px;
+
   margin:0 auto;
   box-shadow: 7px 7px 100px darkgray;
 }
