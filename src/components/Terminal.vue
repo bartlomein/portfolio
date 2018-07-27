@@ -1,11 +1,10 @@
 <template>
   <div class="terminal">
-     <transition appear
-                  appear-active-class="fade-enter-codeguy">
+     
     <div class = "guy-inside-terminal">
           <CodeGuy/>
           </div>
-     </transition>
+
     <div class="container">
 
       <transition appear
@@ -76,9 +75,9 @@ export default {
 }
 .guy-inside-terminal{
   position:fixed;
-  width:300px;
+  width:200px;
   top:200px;
-  right:40px;
+  right:-300px;
   z-index: 123;
 }
 /*TERMINAL*/

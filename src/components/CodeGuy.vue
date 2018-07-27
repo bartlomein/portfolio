@@ -1,5 +1,5 @@
 <template>
-    <div class="code-guy-svg">
+    <div class="code-guy-svg" id="codeman" ref="codeman">
         <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 447.6 675.22">
   <defs>
 
@@ -214,8 +214,13 @@
 </template>
 
 <script>
+import { translate } from '../assets/animate.js';
 export default {
-
+ mounted: function () 
+    {
+      translate(this.$refs.codeman);
+    },
+  
 }
 </script>
 
