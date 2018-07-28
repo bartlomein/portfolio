@@ -13,7 +13,7 @@ export default {
 
 <style scoped>
 .menu{
-  margin-bottom:80px;
+  margin-bottom:40px;
   margin-top:20px;
   
 }

@@ -1,11 +1,16 @@
 <template>
   <div id="app">
+    <div class = "introduction">
+      <div class = "menu">
     <TopMenu/>
+    </div>
+    <div class = "name"><h1>Bartlomiej Tyrpien</h1>
+      </div>
       <div class = "terminal-div" >
         <Terminal/>
         
       </div>
-      
+      </div>
       <div class = "portfolio-work-container">
         <div class = "fried-chix-container">
           <Friedchix/>
@@ -58,6 +63,18 @@ body{
   height: 100%;
   background-color:#F7F0F5;
   height: 100vh !important;
+}
+.introduction{
+  width:100%;
+  height: 100vh;
+}
+.introduction h1{
+  text-align:left;
+  margin-top:0px;
+  font-size:70px;
+  font-family: 'Lato', sans-serif;
+  font-weight:400 !important;
+  color:#6279B8;
 }
 #app {
 
