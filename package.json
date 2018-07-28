@@ -10,6 +10,7 @@
   "dependencies": {
     "animejs": "^2.2.0",
     "vue": "^2.5.16",
+    "vue-animejs": "^1.0.1",
     "vue-typer": "^1.2.0"
   },
   "devDependencies": {

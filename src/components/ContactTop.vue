@@ -1,6 +1,6 @@
 <template>
     <div class="contact-top">
-        
+        test
     </div>
 </template>
 
@@ -11,5 +11,7 @@ export default {
 </script>
 
 <style>
-
+.contact-top{
+background-color:pink;
+}
 </style>

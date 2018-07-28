@@ -1,9 +1,28 @@
 <template>
   <div id="app">
     <TopMenu/>
-      <div class = "terminal-div">
+      <div class = "terminal-div" >
         <Terminal/>
         
+      </div>
+      
+      <div class = "portfolio-work-container">
+        <div class = "fried-chix-container">
+          <Friedchix/>
+          
+        </div>
+        <div class = "fried-chix-container">
+          <Soccer/>
+          
+        </div>
+        <div class = "fried-chix-container">
+          <Checkpoint/>
+          
+        </div>
+         <div class = "fried-chix-container">
+          <Rap/>
+          
+        </div>
       </div>
       <div class = "contact-top-container">
         <ContactTop/>
@@ -16,18 +35,24 @@
 import Terminal from './components/Terminal.vue'
 import TopMenu from './components/TopMenu.vue'
 import ContactTop from './components/ContactTop.vue'
+import Friedchix from './components/Friedchix.vue'
+import Soccer from './components/Soccer.vue'
+import Checkpoint from './components/Checkpoint.vue'
+import Rap from './components/Rap.vue'
 
 
 export default {
   name: 'app',
   components: {
-    Terminal,TopMenu,ContactTop
+    Terminal,TopMenu,ContactTop, Friedchix, Soccer, Checkpoint,Rap
   }
 }
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css?family=Muli');
+
+@import url('https://fonts.googleapis.com/css?family=Lato|Work+Sans');
+
 html, 
 body{
   height: 100%;
@@ -36,7 +61,7 @@ body{
 }
 #app {
 
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: 'Work Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -45,6 +70,23 @@ body{
   margin:0 auto;
 
 
+}
+.fried-chix-text h1{
+font-family: 'Lato', sans-serif;
+font-weight:400 !important;
+
+  font-size:40px;
+  font-weight:bold;
+}
+.fried-chix-container{
+  margin:50px auto;
+   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: minmax(100px, auto);
+  grid-gap:10px;
+}
+.contact-top-container{
+  margin-top:100px;
 }
 .name{
   

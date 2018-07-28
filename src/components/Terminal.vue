@@ -1,9 +1,9 @@
 <template>
   <div class="terminal">
      
-    <div class = "guy-inside-terminal">
+    <!-- <div class = "guy-inside-terminal" >
           <CodeGuy/>
-          </div>
+          </div> -->
 
     <div class="container">
 
@@ -75,9 +75,9 @@ export default {
 }
 .guy-inside-terminal{
   position:fixed;
-  width:200px;
-  top:200px;
-  right:-300px;
+  width:150px;
+  top:190px;
+  right:150px;
   z-index: 123;
 }
 /*TERMINAL*/
