@@ -48,7 +48,11 @@
         
         <ContactTop/>
       </div>
-      
+      <div class = "bottom-footer">
+        Bartlomiej Tyrpien 2018
+        
+        </div>
+        <br>
   </div>
 </template>
 
@@ -237,7 +241,7 @@ font-weight:700 !important;
 .vue-typer .custom.char {
   color: white;
   font-weight:500;
-line-height: 40px;
+line-height: 50px;
   background-color: #3A405A;
 font-family: 'Fira Mono', monospace;
 }
@@ -252,8 +256,8 @@ font-family: 'Fira Mono', monospace;
 }
 
 .terminal-text-mobile{
-  margin-top:30px;
-  padding:40px 10px 10px 10px;
+
+  padding:10px 10px 30px 10px;
   text-align:left;
   margin:5px auto;
   line-height: 30px;
@@ -261,6 +265,14 @@ font-family: 'Fira Mono', monospace;
 
 font-family: 'Fira Mono', monospace;
 }
+
+.bottom-footer{
+  padding:30px 0px 0px 10px !important;
+}
+
+
+
+
 /*MEDIA QUERIES*/
 
 @media only screen and (max-width: 1000px) {
@@ -299,6 +311,9 @@ font-family: 'Fira Mono', monospace;
     display:grid;
     grid-template-columns: 1fr 1fr;
   }
+  .vue-typer .custom.char{
+    line-height: 40px !important;
+  }
 }
 
 
@@ -312,10 +327,10 @@ font-family: 'Fira Mono', monospace;
 
 @media only screen and (max-width: 600px) {
   .name{
-    margin-bottom:60px;
+    margin-bottom:40px;
   }
   .terminal-container{
-    height:400px !important;;
+    height:430px !important;;
   }
   .card-container{
 

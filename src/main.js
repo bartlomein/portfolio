@@ -9,9 +9,9 @@ import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 library.add(faGithub);
 library.add(faLink);
 
-import VueAnime from 'vue-animejs';
 
-Vue.use(VueAnime)
+
+
 
 var VueScrollTo = require('vue-scrollto');
 

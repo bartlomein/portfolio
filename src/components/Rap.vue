@@ -8,7 +8,7 @@
             </div>
 
         <div class ="card-text">
-        <div>This project is some of the most fun I've had while growing as a programmer. It is a bot, that when given a sentence, will spit back a rap in the AABB format, using the given sentence. Uses tons of rap lyrics as a base to create markov chains. Be careful, NSFW!
+        <div>This project was some of the most fun I've had while growing as a programmer. It is a bot, that when given a sentence, will spit back a rap in the AABB format, using the given sentence. This uses tons of rap lyrics as a base to create markov chains. Be careful, NSFW!
         </div>
           </div>
            <div class = "link-and-github">

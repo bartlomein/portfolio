@@ -12,11 +12,9 @@
     "@fortawesome/free-brands-svg-icons": "^5.2.0",
     "@fortawesome/free-solid-svg-icons": "^5.2.0",
     "@fortawesome/vue-fontawesome": "^0.1.1",
-    "animejs": "^2.2.0",
     "i": "^0.3.6",
     "npm": "^6.2.0",
     "vue": "^2.5.16",
-    "vue-animejs": "^1.0.1",
     "vue-scrollto": "^2.11.0",
     "vue-typer": "^1.2.0"
   },

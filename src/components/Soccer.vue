@@ -8,7 +8,7 @@
             </div>
 
         <div class ="card-text">
-        <div>Being Polish, love of soccer is in my blood. Since the World Cup was starting, and I was just getting into learning VueJS, I decided to create a website that would pull game information from an API and output all the relevant the data to the user.
+        <div>Being Polish, the love of soccer is in my blood. Since the World Cup was starting and I was just getting into learning VueJS, I decided to create a website that would pull game information from an API and output all the relevant data to the user.
         </div>
           </div>
            <div class = "link-and-github">

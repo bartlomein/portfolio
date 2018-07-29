@@ -8,7 +8,7 @@
             </div>
 
         <div class ="card-text">
-        <div>During an internship, I noticed how often we were checking an new client's original site for a content menagement system. I created a website to check for some of the most popular ones including, Wix, Squarespace, Wordpress and Drupal, and output the result to the user. 
+        <div>During an internship, I noticed how often we were inspecting a new client's original website for a content management system. I created a website to check for some of the most popular ones including, Wix, Squarespace, Wordpress and Drupal, and output the result to the user. 
         </div>
           </div>
            <div class = "link-and-github">

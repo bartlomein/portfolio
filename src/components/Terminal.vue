@@ -1,9 +1,7 @@
 <template>
   <div class="terminal">
      
-    <!-- <div class = "guy-inside-terminal" >
-          <CodeGuy/>
-          </div> -->
+
 
     <div class="container">
 
@@ -34,7 +32,7 @@
           
             <div class = "terminal-text element">
                 <vue-typer
-                  :text='["> Hi there! :)\n> My name is Bartlomiej Tyrpien and I am a web developer from New Jersey.\n> My passion lies in creating beautiful, creative websites.\n> Please take a look at some of my work below!"]'
+                  :text='["> Hi there! :)\n> My name is Bartlomiej Tyrpien and I am a web developer from New Jersey.\n> My passion lies in creating functional, yet beautiful user experiences.\n> Take a look at some of my work below!"]'
                   :repeat='0'
                   :shuffle='false'
                   initial-action='typing'
@@ -49,9 +47,12 @@
             </div>
             <div class = "terminal-text-mobile">
               <div>> Hi there! :)</div>
+              <br>
               <div>> My name is Bartlomiej Tyrpien and I am a web developer from New Jersey.</div>
-              <div>> My passion lies in creating beautiful, creative websites.</div>
-              <div>> Please take a look at some of my work below!.</div>
+              <br>
+              <div>> My passion is creating functional, yet beautiful user experiences.</div>
+              <br>
+              <div>> Take a look at some of my work below! </div>
               
             </div>
           
@@ -64,12 +65,10 @@
 </template>
 
 <script>
-import CodeGuy from './CodeGuy.vue'
+
 export default {
   name: "Terminal",
-  components: {
-    CodeGuy
-  }
+  
 };
 </script>
 
@@ -91,7 +90,7 @@ export default {
 .terminal-container {
   background-color: #3A405A;
   max-width: 1000px;
-  height: 280px;
+  height: 340px;
   color: white;
   border-radius: 10px;
 
@@ -124,7 +123,7 @@ export default {
 }
 .terminal-text  {
   text-align: left;
-
+  margin-top:15px;
   color: black;
   font-size: 22px;
   padding: 10px;
