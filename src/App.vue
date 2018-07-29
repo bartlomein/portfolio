@@ -326,6 +326,12 @@ font-family: 'Fira Mono', monospace;
 }
 
 @media only screen and (max-width: 600px) {
+  .info{
+    font-size:15px;
+  }
+  .card-text{
+    font-size:15px !important;
+  }
   .name{
     margin-bottom:40px;
   }
