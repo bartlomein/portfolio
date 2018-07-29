@@ -34,11 +34,11 @@
           
             <div class = "terminal-text element">
                 <vue-typer
-                  :text='["> Hi!\n> My name is Bartlomiej Tyrpien and I am a web developer from New Jersey.\n> My passion lies in creating beautiful, creative websites.\n> Please take a look at some of my work below!"]'
+                  :text='["> Hi there! :)\n> My name is Bartlomiej Tyrpien and I am a web developer from New Jersey.\n> My passion lies in creating beautiful, creative websites.\n> Please take a look at some of my work below!"]'
                   :repeat='0'
                   :shuffle='false'
                   initial-action='typing'
-                  :pre-type-delay='2500'
+                  :pre-type-delay='2600'
                   :type-delay='70'
                   :pre-erase-delay='2'
                   :erase-delay='250000000'
@@ -119,7 +119,7 @@ export default {
   text-align: left;
   font-family: "Inconsolata", monospace;
   color: black;
-  font-size: 18px;
+  font-size: 20px;
   padding: 10px;
 }
 

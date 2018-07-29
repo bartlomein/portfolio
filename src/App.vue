@@ -31,8 +31,17 @@
           <Rap/>
           
         </div>
+      </div> <hr>
+
+      <div class = "fried-chix-container">
+        
+
+       
+        <Tech/>
       </div>
       <div class = "contact-top-container">
+        <div id="port">Contact</div>
+        <hr>
         <ContactTop/>
       </div>
       
@@ -47,25 +56,30 @@ import Friedchix from './components/Friedchix.vue'
 import Soccer from './components/Soccer.vue'
 import Checkpoint from './components/Checkpoint.vue'
 import Rap from './components/Rap.vue'
+import Tech from './components/Tech.vue'
 
 
 export default {
   name: 'app',
   components: {
-    Terminal,TopMenu,ContactTop, Friedchix, Soccer, Checkpoint,Rap
+    Terminal,TopMenu,ContactTop, Friedchix, Soccer, Checkpoint,Rap,Tech
   }
 }
 </script>
 
 <style>
 
-@import url('https://fonts.googleapis.com/css?family=Raleway|Work+Sans');
+@import url('https://fonts.googleapis.com/css?family=Raleway|Work+Sans|Ubuntu+Mono');
 
 html, 
 body{
   height: 100%;
   background-color:#F7F0F5;
   height: 100vh !important;
+}
+.contact-top-container{
+  margin-top:50px;
+  margin-bottom:50px;
 }
 #port{
   font-size:60px;
@@ -75,7 +89,7 @@ body{
 }
  hr{
 
-  border:2px solid #E56399;
+  border:2px solid #FF715B;
   width:5%;
 }
 .menu{
@@ -93,6 +107,8 @@ body{
   text-align:left;
   margin-top:0px;
   font-size:70px;
+  letter-spacing: 10px;
+  
   font-family: 'Raleway', sans-serif;
   font-weight:900 !important;
   color:#231F20;
@@ -127,7 +143,7 @@ font-weight:700 !important;
   margin-top:100px;
 }
 .name{
-  
+
   font-size: 70px;
   margin-bottom:30px;
   color:#71677C;
@@ -155,6 +171,7 @@ font-weight:700 !important;
   font-weight:500;
 line-height: 40px;
   background-color: #3A405A;
+  font-family: 'Ubuntu Mono', monospace;
 }
 .vue-typer .custom.char.selected {
   background-color: #3A405A;
