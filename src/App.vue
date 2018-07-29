@@ -40,7 +40,7 @@
         <Tech/>
       </div>
       <div class = "contact-top-container">
-        <div id="port">Contact</div>
+        <div id="contact">Contact</div>
         <hr>
         <ContactTop/>
       </div>
@@ -86,6 +86,10 @@ body{
   color:#231F20;
 
 
+}
+#contact{
+  font-size:60px;
+  color:#231F20;
 }
  hr{
 

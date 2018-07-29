@@ -1,6 +1,6 @@
 <template>
     <div id = "fried-chix">
-        <div class = "image"><img src="../assets/rap1.png" alt="" srcset=""></div>
+        <div class = "image"><img src="../assets/tech.png" alt="" srcset=""></div>
 
         <div class = "fried-chix-text">
             <div class ="card-heading">
@@ -11,16 +11,23 @@
         <div>Working at an agency I have learned to work with several front end and back end technologies, not limited to:
         </div>
           </div>
-           
+           <div class = "build-with-container">
                <div class = "built-with">
-              <span class="technolojeesus">Wordpress</span>
-              <span class="technolojeesus">Adobe Photoshop</span>
-              <span class="technolojeesus">MySQL</span>
-              <span class="technolojeesus">PostgreSQL</span>
-              <span class="technolojeesus">EmberJS</span>
-              <span class="technolojeesus">Phonegap</span>
-              <span class="technolojeesus">Xcode</span>
+              <div class="technolojeesus">Git</div>
+              <div class="technolojeesus">Wordpress</div>
+              <div class="technolojeesus">MySQL</div>
+              <div class="technolojeesus">Adobe Photoshop</div>
+              <div class="technolojeesus">Adobe Premiere</div>
+
+              <div class="technolojeesus">PostgreSQL</div>
+              <div class="technolojeesus">FlaskSQL-Alchemy</div>
+
+              <div class="technolojeesus">Phonegap</div>
+              <div class="technolojeesus">Ubuntu</div>
+
+
               
+          </div>
           </div>
           </div>
          
@@ -34,10 +41,21 @@
 export default {};
 </script>
 
-<style>
+<style scoped>
 .built-with{
-    margin-top:20px;
+    margin-top:40px;
     height: 100%;
+    display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  grid-gap: 10px;
+
+  text-align: center;
+
+}
+
+.build-with-container{
+
+
 }
 .technolojeesus{
     margin-right:20px;

@@ -1,7 +1,7 @@
 <template>
     <div class = "menu">
-      <a href="#">Portfolio</a> | 
-      <a href="#">Contact</a>
+      <a href="#" v-scroll-to="'#port'">Portfolio</a> | 
+      <a href="#" v-scroll-to="'#contact'">Contact</a>
     </div>
 </template>
 
