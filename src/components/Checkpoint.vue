@@ -12,7 +12,12 @@
         </div>
           </div>
            <div class = "link-and-github">
-          <img src="../assets/Asset290.png" alt="" srcset=""><img src="../assets/github.png" alt="" srcset="">
+            <span class = "link button">
+                <a href="https://www.cmscheckpoint.com" target="_blank">
+           <font-awesome-icon icon="link" size="1x" /> Link</a></span>
+           <span class = "git button">
+               <a href="https://github.com/bartlomein/CMScheckpoint.com" target="_blank">
+           <font-awesome-icon  :icon="['fab','github']" size="1x" /> Code</a></span>
               </div>
                <div class = "built-with">
               <span class="technolojeesus">HTML</span>
@@ -32,7 +37,22 @@
 export default {};
 </script>
 
-<style scoped> 
+<style scoped>
+.link{
+    margin-right:20px;
+    color:white;
+    border:2px solid #FF715B;
+    background-color:#FF715B;
+    border-radius: 5px;
+    padding:7px;
+}
+.git{
+    color:white;
+    border:2px solid #FF715B;
+    border-radius: 5px;
+    padding:7px;
+    background-color:#FF715B;
+}
 .technolojeesus{
     margin-right:20px;
     border:2px solid #88CCF1;
@@ -51,11 +71,10 @@ export default {};
   box-shadow: 5px 5px 50px darkgray;
   color:#231F20;
 }
-.link-and-github img{
+.link-and-github {
     max-width:50%;
-    width:15%;
-    margin:30px 30px 30px 0px;
-
+    font-size:20px;
+    margin:60px 30px 70px 0px;
 
 
 

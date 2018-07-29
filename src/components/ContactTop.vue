@@ -13,12 +13,13 @@
           </div>
            
                <div class = "built-with">
-              <span class="technolojeesus">bartlomiej.tyrpien@gmail.com</span>
-              <span class="technolojeesus">Resume</span>
-              <span class="technolojeesus">Github</span>
-              <span class="technolojeesus">Twitter</span>
-              <span class="technolojeesus">Instagram</span>
+              <span class="info button"><a href="mailto:bartlomiej.tyrpien@gmail.com">bartlomiej.tyrpien@gmail.com</a></span>
+              <span class="info button"><a href="/Bartlomiej-Tyrpien.pdf" target="blank"> Resume</a></span>
+              <span class="info button"><a href="https://github.com/bartlomein" target="_blank">Github</a></span>
+              <span class="info button"><a href="https://twitter.com/bartlomein" target="_blank">Twitter</a></span>
+              <span class="info button"><a href="https://www.linkedin.com/in/bartlomiej-tyrpien-a1708968" target="_blank">LinkedIn</a></span>
               
+
           </div>
           </div>
          
@@ -36,11 +37,14 @@ export default {};
 .built-with{
     margin-top:20px;
 }
-.technolojeesus{
+.info{
     margin-right:20px;
-    
+    font-size:16px;
+    color:white;
+    font-weight:bold;
     border:2px solid #FF715B;
-    padding:5px;
+    background-color:#FF715B;
+    padding:7px;
     border-radius:5px;
 }
 #fried-chix {

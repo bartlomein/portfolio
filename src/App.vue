@@ -72,6 +72,48 @@ export default {
 
 @import url('https://fonts.googleapis.com/css?family=Raleway|Work+Sans|Ubuntu+Mono');
 
+
+/*BUTTON*/
+a{
+  text-decoration: none;
+}
+
+.button{
+	-webkit-transition: all 500ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-moz-transition: all 500ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-ms-transition: all 500ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-o-transition: all 500ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	transition: all 500ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+
+	margin: 20px auto;
+
+	text-decoration: none;
+	border-radius: 4px;
+	padding: 10px 20px;
+}
+
+.button {
+	color: rgba(30, 22, 54, 0.6);
+
+}
+.button a{
+  color:white;
+}
+
+.button:hover {
+	color: #FF715B ;
+	box-shadow: white 0 0px 0px 40px inset;
+  cursor: pointer;
+}
+.button:hover a{
+color: #FF715B ;
+}
+
+
+
+
+
+
 html, 
 body{
   height: 100%;

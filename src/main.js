@@ -1,8 +1,14 @@
 import Vue from 'vue'
 import App from './App.vue'
-// ES6
+
 import VueTyperPlugin from 'vue-typer'
-// CommonJS
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { faLink } from "@fortawesome/free-solid-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
+library.add(faGithub);
+library.add(faLink);
+
 import VueAnime from 'vue-animejs';
 
 Vue.use(VueAnime)
@@ -10,6 +16,13 @@ Vue.use(VueAnime)
 var VueScrollTo = require('vue-scrollto');
 
 Vue.use(VueScrollTo)
+
+
+
+
+Vue.component("font-awesome-icon", FontAwesomeIcon);
+
+Vue.config.productionTip = false;
 
 // You can also pass in the default options
 Vue.use(VueScrollTo, {
