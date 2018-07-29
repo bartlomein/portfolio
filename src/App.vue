@@ -1,12 +1,17 @@
 <template>
   <div id="app">
     <div class = "introduction">
+       <transition appear
+                  appear-active-class="fade-enter-heading">
       <div class = "menu">
     <TopMenu/>
     </div>
-    <div class = "name"><h1>Bartlomiej Tyrpien</h1>
-    
-      </div>
+       </transition>
+     <transition appear
+                  appear-active-class="fade-enter-heading">
+    <div class = "name"><h1>Bartlomiej Tyrpien</h1></div>
+    </transition>
+      
       <div class = "terminal-div" >
         <Terminal/>
         
@@ -68,7 +73,7 @@ export default {
 
 <style>
 
-@import url('https://fonts.googleapis.com/css?family=Raleway|Work+Sans|Ubuntu+Mono');
+@import url('https://fonts.googleapis.com/css?family=Raleway|Work+Sans|Fira+Mono');
 
 
 /*BUTTON*/
@@ -76,6 +81,24 @@ a{
   text-decoration: none;
 }
 
+/*transitions*/
+.fade-enter-heading {
+  animation: heading 3s;
+   animation-timing-function:easeOutElastic;
+  animation-fill-mode: both;
+
+
+
+}
+
+@keyframes heading {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 .button{
 	-webkit-transition: all 500ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
 	-moz-transition: all 500ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
@@ -216,7 +239,7 @@ font-weight:700 !important;
   font-weight:500;
 line-height: 40px;
   background-color: #3A405A;
-  font-family: 'Ubuntu Mono', monospace;
+font-family: 'Fira Mono', monospace;
 }
 .vue-typer .custom.char.selected {
   background-color: #3A405A;
@@ -228,7 +251,16 @@ line-height: 40px;
   background-color: #99B2DD;
 }
 
+.terminal-text-mobile{
+  margin-top:30px;
+  padding:40px 10px 10px 10px;
+  text-align:left;
+  margin:5px auto;
+  line-height: 30px;
+  font-size:20px;
 
+font-family: 'Fira Mono', monospace;
+}
 /*MEDIA QUERIES*/
 
 @media only screen and (max-width: 1000px) {
@@ -271,16 +303,29 @@ line-height: 40px;
 
 
 
+@media only screen and (min-width: 600px) {
+.terminal-text-mobile{
+  display:none;
+  
+}
+}
 
 @media only screen and (max-width: 600px) {
+  .name{
+    margin-bottom:60px;
+  }
+  .terminal-container{
+    height:400px !important;;
+  }
   .card-container{
 
   }
   .terminal-text{
-    font-size:12px !important;
+    font-size:16px !important;
+    display:none;
   }
   .introduction h1{
-    font-size:20px;
+    font-size:40px;
   }
   .technolojeesus{
     font-size:12px;

@@ -47,6 +47,13 @@
                   caret-animation='blink'
                 ></vue-typer>
             </div>
+            <div class = "terminal-text-mobile">
+              <div>> Hi there! :)</div>
+              <div>> My name is Bartlomiej Tyrpien and I am a web developer from New Jersey.</div>
+              <div>> My passion lies in creating beautiful, creative websites.</div>
+              <div>> Please take a look at some of my work below!.</div>
+              
+            </div>
           
 
         </div> 
@@ -117,9 +124,9 @@ export default {
 }
 .terminal-text  {
   text-align: left;
-  font-family: "Inconsolata", monospace;
+
   color: black;
-  font-size: 20px;
+  font-size: 22px;
   padding: 10px;
 }
 

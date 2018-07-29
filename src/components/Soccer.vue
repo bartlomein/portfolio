@@ -8,7 +8,7 @@
             </div>
 
         <div class ="card-text">
-        <div>It is a well known fact, that everyone in the world loves fried chicken, so naturally the purpose for this project is self evident. Using the Google Javascript Maps API one is able to enter a location, and be given all the chicken spots in the area, including all the relevant information about the particular spot.
+        <div>Being Polish, love of soccer is in my blood. Since the World Cup was starting, and I was just getting into learning VueJS, I decided to create a website that would pull game information from an API and output all the relevant the data to the user.
         </div>
           </div>
            <div class = "link-and-github">

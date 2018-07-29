@@ -8,7 +8,7 @@
             </div>
 
         <div class ="card-text">
-        <div>Working at an agency I have learned to work with several front end and back end technologies, not limited to:
+        <div>Some of the other front and back end technologies I have worked with during my career:
         </div>
           </div>
            <div class = "build-with-container">

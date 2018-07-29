@@ -8,7 +8,7 @@
             </div>
 
         <div class ="card-text">
-        <div>It is a well known fact, that everyone in the world loves fried chicken, so naturally the purpose for this project is self evident. Using the Google Javascript Maps API one is able to enter a location, and be given all the chicken spots in the area, including all the relevant information about the particular spot.
+        <div>During an internship, I noticed how often we were checking an new client's original site for a content menagement system. I created a website to check for some of the most popular ones including, Wix, Squarespace, Wordpress and Drupal, and output the result to the user. 
         </div>
           </div>
            <div class = "link-and-github">

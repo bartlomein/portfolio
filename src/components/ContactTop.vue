@@ -8,7 +8,7 @@
             </div>
 
         <div class ="card-text">
-        <div>Here are some ways you contact me:
+        <div>Contact me here:
         </div>
           </div>
            
