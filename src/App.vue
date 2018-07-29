@@ -39,9 +39,10 @@
        
         <Tech/>
       </div>
-      <div class = "contact-top-container">
-        <div id="contact">Contact</div>
+      <div id="contact">Contact</div>
         <hr>
+      <div class = "fried-chix-container">
+        
         <ContactTop/>
       </div>
       
@@ -111,7 +112,7 @@ body{
   text-align:left;
   margin-top:0px;
   font-size:70px;
-  letter-spacing: 10px;
+  letter-spacing: 7px;
   
   font-family: 'Raleway', sans-serif;
   font-weight:900 !important;
