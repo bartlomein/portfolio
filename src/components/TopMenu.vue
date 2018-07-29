@@ -1,7 +1,10 @@
 <template>
     <div class = "menu">
       <a href="#" v-scroll-to="'#port'">Portfolio</a> | 
-      <a href="#" v-scroll-to="'#contact'">Contact</a>
+      <a href="#" v-scroll-to="{
+     el: '#contact',
+     duration: 500,
+     easing: 'ease-in-out'}">Contact</a>
     </div>
 </template>
 

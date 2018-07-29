@@ -30,7 +30,7 @@
 export default {};
 </script>
 
-<style>
+<style scoped>
 .technolojeesus{
     margin-right:20px;
     border:2px solid #88CCF1;

@@ -33,7 +33,7 @@
 export default {};
 </script>
 
-<style>
+<style scoped>
 .technolojeesus{
     margin-right:20px;
     border:2px solid #88CCF1;
@@ -55,7 +55,7 @@ export default {};
 .link-and-github img{
     max-width:50%;
     width:15%;
-    margin:30px 30px 0px 0px;
+    margin:30px 30px 30px 0px;
 
 
 
