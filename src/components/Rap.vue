@@ -62,9 +62,11 @@ export default {};
   max-width: 765px;
   padding-right: 30px;
   padding-left: 327px;
+  color:#231F20;
 }
 .card-text {
   text-align: left;
+  color:#231F20;
 }
 .image img {
   border-radius: 5px 0px 0px 5px;

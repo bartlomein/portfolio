@@ -5,6 +5,7 @@
     <TopMenu/>
     </div>
     <div class = "name"><h1>Bartlomiej Tyrpien</h1>
+    
       </div>
       <div class = "terminal-div" >
         <Terminal/>
@@ -12,6 +13,8 @@
       </div>
       </div>
       <div class = "portfolio-work-container">
+        <div id="port">Portfolio</div>
+        <hr>
         <div class = "fried-chix-container">
           <Friedchix/>
           
@@ -56,7 +59,7 @@ export default {
 
 <style>
 
-@import url('https://fonts.googleapis.com/css?family=Lato|Work+Sans');
+@import url('https://fonts.googleapis.com/css?family=Raleway|Work+Sans');
 
 html, 
 body{
@@ -64,6 +67,24 @@ body{
   background-color:#F7F0F5;
   height: 100vh !important;
 }
+#port{
+  font-size:60px;
+  color:#231F20;
+
+
+}
+ hr{
+
+  border:2px solid #E56399;
+  width:5%;
+}
+.menu{
+  float:right;
+  width:100%;
+  text-align:right;
+
+}
+
 .introduction{
   width:100%;
   height: 100vh;
@@ -72,9 +93,9 @@ body{
   text-align:left;
   margin-top:0px;
   font-size:70px;
-  font-family: 'Lato', sans-serif;
-  font-weight:400 !important;
-  color:#6279B8;
+  font-family: 'Raleway', sans-serif;
+  font-weight:900 !important;
+  color:#231F20;
 }
 #app {
 
@@ -89,8 +110,8 @@ body{
 
 }
 .fried-chix-text h1{
-font-family: 'Lato', sans-serif;
-font-weight:400 !important;
+font-family: 'Raleway', sans-serif;
+font-weight:700 !important;
 
   font-size:40px;
   font-weight:bold;

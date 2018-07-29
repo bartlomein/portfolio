@@ -38,6 +38,7 @@ export default {};
     border:2px solid #88CCF1;
     padding:5px;
     border-radius:5px;
+    color:#231F20;
 }
 #fried-chix {
   background-color: white;
@@ -48,11 +49,13 @@ export default {};
   width: 1000px;
   border-radius: 5px;
   box-shadow: 5px 5px 50px darkgray;
+  color:#231F20;
 }
 .link-and-github img{
     max-width:50%;
     width:15%;
     margin:30px 30px 30px 0px;
+
 
 
 
@@ -64,9 +67,11 @@ export default {};
   max-width: 765px;
   padding-right: 30px;
   padding-left: 327px;
+  color:#231F20;
 }
 .card-text {
   text-align: left;
+  color:#231F20;
 }
 .image img {
   border-radius: 5px 0px 0px 5px;
