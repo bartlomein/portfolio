@@ -328,6 +328,7 @@ font-family: 'Fira Mono', monospace;
 @media only screen and (max-width: 600px) {
   .info{
     font-size:15px;
+    padding:5px !important;
   }
   .card-text{
     font-size:15px !important;
