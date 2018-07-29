@@ -15,33 +15,31 @@
       <div class = "portfolio-work-container">
         <div id="port">Portfolio</div>
         <hr>
-        <div class = "fried-chix-container">
+        <div class = "card-container">
           <Friedchix/>
           
         </div>
-        <div class = "fried-chix-container">
+        <div class = "card-container">
           <Soccer/>
           
         </div>
-        <div class = "fried-chix-container">
+        <div class = "card-container">
           <Checkpoint/>
           
         </div>
-         <div class = "fried-chix-container">
+         <div class = "card-container">
           <Rap/>
           
         </div>
       </div> <hr>
 
-      <div class = "fried-chix-container">
-        
-
-       
+      <div class = "card-container tech-container">
+      
         <Tech/>
       </div>
       <div id="contact">Contact</div>
         <hr>
-      <div class = "fried-chix-container">
+      <div class = "card-container contact-container">
         
         <ContactTop/>
       </div>
@@ -179,7 +177,7 @@ font-weight:700 !important;
   font-size:40px;
   font-weight:bold;
 }
-.fried-chix-container{
+.card-container{
   margin:50px auto;
    display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -229,4 +227,97 @@ line-height: 40px;
   height:20px;
   background-color: #99B2DD;
 }
+
+
+/*MEDIA QUERIES*/
+
+@media only screen and (max-width: 1000px) {
+  .technolojeesus{
+    margin:2px;
+    display:flex;
+    justify-content: center;
+  }
+  .card-heading{
+    display:flex;
+    justify-content: center;
+  }
+  .card-text{
+    text-align: center !important;
+  }
+  .card-heading h1{
+    
+    font-size:24px;
+  }
+  .image{
+    display:none;
+  }
+  .fried-chix-text{
+    padding:10px !important;
+    max-width:90% !important;
+    margin:0 auto;
+  }
+  .link-and-github{
+    font-size:16px !important;
+    margin:0px 10px 0px 0px  !important;
+    max-width:100% !important;
+    display:flex;
+    align-content: center;
+  }
+  .built-with{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .card-container{
+
+  }
+  .terminal-text{
+    font-size:12px !important;
+  }
+  .introduction h1{
+    font-size:20px;
+  }
+  .technolojeesus{
+    font-size:12px;
+  }
+  .tech-container{
+
+
+  }
+  .tech-container #fried-chix{
+    height:100% !important;
+    max-height:100% !important;
+  }
+  .contact-container #fried-chix{
+     height:100% !important;
+    max-height:100% !important;
+    
+  }
+    .contact-container .built-with .email-and-other span{
+    margin:0 auto;
+
+  }
+  .contact-container .built-with  span{
+    display:flex;
+    justify-content: center;
+    margin-right:10px;
+
+  }
+
+  .contact-container .built-with{
+    display:grid;
+    grid-template-columns: 1fr;
+
+  }
+}
+
+
+
+
+
 </style>
