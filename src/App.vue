@@ -382,7 +382,12 @@ font-family: 'Fira Mono', monospace;
 
   }
 }
-
+@media only screen and (max-width: 400px) {
+  .info{
+    font-size:14px;
+    padding:2px !important;
+  }
+  }
 
 
 
