@@ -21,25 +21,19 @@
         <div id="port">Portfolio</div>
         <hr>
         <div class = "card-container">
-          <Friedchix/>
-          
+          <Friedchix/>   
         </div>
         <div class = "card-container">
           <Soccer/>
-          
         </div>
         <div class = "card-container">
           <Checkpoint/>
-          
         </div>
          <div class = "card-container">
           <Rap/>
-          
         </div>
       </div> <hr>
-
       <div class = "card-container tech-container">
-      
         <Tech/>
       </div>
       <div id="contact">Contact</div>
