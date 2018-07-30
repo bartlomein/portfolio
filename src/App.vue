@@ -87,7 +87,7 @@ a{
 
 /*transitions*/
 .fade-enter-heading {
-  animation: heading 3s;
+  animation: heading 1s;
    animation-timing-function:easeOutElastic;
   animation-fill-mode: both;
 
@@ -150,6 +150,7 @@ body{
   margin-bottom:50px;
 }
 #port{
+  
   font-size:60px;
   color:#231F20;
 
@@ -280,6 +281,9 @@ font-family: 'Fira Mono', monospace;
     margin:2px;
     display:flex;
     justify-content: center;
+  }
+  #port{
+    margin-top:40px;
   }
   .card-heading{
     display:flex;
