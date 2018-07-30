@@ -20,7 +20,7 @@
               <div class="technolojeesus">Adobe Premiere</div>
 
               <div class="technolojeesus">PostgreSQL</div>
-              <div class="technolojeesus">FlaskSQL-Alchemy</div>
+              <div class="technolojeesus">Flask-SQLAlchemy</div>
 
               <div class="technolojeesus">Phonegap</div>
               <div class="technolojeesus">Ubuntu</div>
