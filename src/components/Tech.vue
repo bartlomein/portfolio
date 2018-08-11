@@ -4,7 +4,7 @@
 
         <div class = "fried-chix-text">
             <div class ="card-heading">
-            <h1>Other techonologies I work with</h1>
+            <h1>Other technologies I work with</h1>
             </div>
 
         <div class ="card-text">
