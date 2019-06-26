@@ -1,40 +1,34 @@
 <template>
-    <div id = "fried-chix">
-        <div class = "image"><img src="../assets/tech.png" alt="" srcset=""></div>
+  <div id="fried-chix">
+    <div class="image">
+      <img src="../assets/tech.png" alt srcset>
+    </div>
 
-        <div class = "fried-chix-text">
-            <div class ="card-heading">
-            <h1>Other technologies I work with</h1>
-            </div>
+    <div class="fried-chix-text">
+      <div class="card-heading">
+        <h1>Other technologies I work with</h1>
+      </div>
 
-        <div class ="card-text">
-        <div>Some of the other front and back end technologies I have worked with during my career:
+      <div class="card-text">
+        <div>Some of the other front and back end technologies I have worked with during my career:</div>
+      </div>
+      <div class="build-with-container">
+        <div class="built-with">
+          <div class="technolojeesus">React</div>
+          <div class="technolojeesus">Redux</div>
+          <div class="technolojeesus">Git</div>
+          <div class="technolojeesus">Wordpress</div>
+          <div class="technolojeesus">MySQL</div>
+
+          <div class="technolojeesus">PostgreSQL</div>
+          <div class="technolojeesus">Flask-SQLAlchemy</div>
+
+          <div class="technolojeesus">Phonegap</div>
+          <div class="technolojeesus">Ubuntu</div>
         </div>
-          </div>
-           <div class = "build-with-container">
-               <div class = "built-with">
-              <div class="technolojeesus">Git</div>
-              <div class="technolojeesus">Wordpress</div>
-              <div class="technolojeesus">MySQL</div>
-              <div class="technolojeesus">Adobe Photoshop</div>
-              <div class="technolojeesus">Adobe Premiere</div>
-
-              <div class="technolojeesus">PostgreSQL</div>
-              <div class="technolojeesus">Flask-SQLAlchemy</div>
-
-              <div class="technolojeesus">Phonegap</div>
-              <div class="technolojeesus">Ubuntu</div>
-
-
-              
-          </div>
-          </div>
-          </div>
-         
-              
-         
-        </div>
-        
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
@@ -42,26 +36,23 @@ export default {};
 </script>
 
 <style scoped>
-.built-with{
-    margin-top:40px;
-    height: 100%;
-    display: grid;
+.built-with {
+  margin-top: 40px;
+  height: 100%;
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, auto));
   grid-gap: 10px;
 
   text-align: center;
-
 }
 
-.build-with-container{
-
-
+.build-with-container {
 }
-.technolojeesus{
-    margin-right:20px;
-    border:2px solid #88CCF1;
-    padding:5px;
-    border-radius:5px;
+.technolojeesus {
+  margin-right: 20px;
+  border: 2px solid #88ccf1;
+  padding: 5px;
+  border-radius: 5px;
 }
 #fried-chix {
   background-color: white;
@@ -73,13 +64,10 @@ export default {};
   border-radius: 5px;
   box-shadow: 5px 5px 50px darkgray;
 }
-.link-and-github img{
-    max-width:50%;
-    width:15%;
-    margin:30px 30px 30px 0px;
-
-
-
+.link-and-github img {
+  max-width: 50%;
+  width: 15%;
+  margin: 30px 30px 30px 0px;
 }
 
 .fried-chix-text {
@@ -88,11 +76,11 @@ export default {};
   max-width: 765px;
   padding-right: 30px;
   padding-left: 327px;
-  color:#231F20;
+  color: #231f20;
 }
 .card-text {
   text-align: left;
-  color:#231F20;
+  color: #231f20;
 }
 .image img {
   border-radius: 5px 0px 0px 5px;
