@@ -23,8 +23,8 @@
           <div class="technolojeesus">PostgreSQL</div>
           <div class="technolojeesus">Flask-SQLAlchemy</div>
 
-          <div class="technolojeesus">Phonegap</div>
-          <div class="technolojeesus">Ubuntu</div>
+          <div class="technolojeesus">GraphQL</div>
+          <div class="technolojeesus">Apollo</div>
         </div>
       </div>
     </div>
