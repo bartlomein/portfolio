@@ -97,4 +97,7 @@ export default {};
   top: 0px;
   left: 0px;
 }
+.button svg {
+  padding-right: 5px;
+}
 </style>
