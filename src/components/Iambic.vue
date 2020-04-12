@@ -15,7 +15,7 @@
       <div class="link-and-github">
         <span class="link button">
           <a href="https://iambic.dev" target="_blank">
-            <font-awesome-icon icon="link" size="1x" />Link
+            <font-awesome-icon icon="link" size="1x" />URL
           </a>
         </span>
         <span class="git button">
