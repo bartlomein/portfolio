@@ -1,7 +1,7 @@
 <template>
   <div id="fried-chix">
     <div class="image">
-      <img src="../assets/me2.png" alt srcset>
+      <img src="../assets/me2.png" alt srcset />
     </div>
 
     <div class="fried-chix-text">
@@ -22,7 +22,7 @@
         <span class="contact-not-email">
           <span class="info button">
             <a
-              href="https://drive.google.com/file/d/1KuGhTtmADHQJekWOCNvIij15mK4oB6-r/view?usp=sharing"
+              href="https://drive.google.com/open?id=1_lqYpoifWdsdiF_tj8UorxRcMK_jGWKE"
               target="_blank"
             >Resume</a>
           </span>

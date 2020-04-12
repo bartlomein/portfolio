@@ -3,7 +3,7 @@
     <div class="introduction">
       <transition appear appear-active-class="fade-enter-heading">
         <div class="menu">
-          <TopMenu/>
+          <TopMenu />
         </div>
       </transition>
       <transition appear appear-active-class="fade-enter-heading">
@@ -13,33 +13,36 @@
       </transition>
 
       <div class="terminal-div">
-        <Terminal/>
+        <Terminal />
       </div>
     </div>
     <div class="portfolio-work-container">
       <div id="port">Portfolio</div>
-      <hr>
+      <hr />
       <div class="card-container">
-        <Friedchix/>
+        <Iambic />
       </div>
       <div class="card-container">
-        <Soccer/>
+        <Friedchix />
       </div>
       <div class="card-container">
-        <Rap/>
+        <Soccer />
+      </div>
+      <div class="card-container">
+        <Rap />
       </div>
     </div>
-    <hr>
+    <hr />
     <div class="card-container tech-container">
-      <Tech/>
+      <Tech />
     </div>
     <div id="contact">Contact</div>
-    <hr>
+    <hr />
     <div class="card-container contact-container">
-      <ContactTop/>
+      <ContactTop />
     </div>
-    <div class="bottom-footer">Bartlomiej Tyrpien 2018</div>
-    <br>
+    <div class="bottom-footer">Bartlomiej Tyrpien 2020</div>
+    <br />
   </div>
 </template>
 
@@ -48,6 +51,7 @@ import Terminal from "./components/Terminal.vue";
 import TopMenu from "./components/TopMenu.vue";
 import ContactTop from "./components/ContactTop.vue";
 import Friedchix from "./components/Friedchix.vue";
+import Iambic from "./components/Iambic.vue";
 import Soccer from "./components/Soccer.vue";
 import Checkpoint from "./components/Checkpoint.vue";
 import Rap from "./components/Rap.vue";
@@ -59,6 +63,7 @@ export default {
     Terminal,
     TopMenu,
     ContactTop,
+    Iambic,
     Friedchix,
     Soccer,
     Checkpoint,
