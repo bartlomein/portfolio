@@ -16,15 +16,18 @@
       <div class="built-with">
         <span class="email-and-other">
           <span class="info button">
-            <a href="mailto:bartlomiej.tyrpien@gmail.com">bartlomiej.tyrpien@gmail.com</a>
+            <a href="mailto:bartlomiej.tyrpien@gmail.com"
+              >bartlomiej.tyrpien@gmail.com</a
+            >
           </span>
         </span>
         <span class="contact-not-email">
           <span class="info button">
             <a
-              href="https://drive.google.com/open?id=1_lqYpoifWdsdiF_tj8UorxRcMK_jGWKE"
+              href="https://drive.google.com/file/d/18dvEAuptFVViHEMuS-AG4k7o_nW2qD-r/view?usp=sharing"
               target="_blank"
-            >Resume</a>
+              >Resume</a
+            >
           </span>
           <span class="info button">
             <a href="https://github.com/bartlomein" target="_blank">Github</a>
@@ -36,7 +39,8 @@
             <a
               href="https://www.linkedin.com/in/bartlomiej-tyrpien-a1708968"
               target="_blank"
-            >LinkedIn</a>
+              >LinkedIn</a
+            >
           </span>
         </span>
       </div>
