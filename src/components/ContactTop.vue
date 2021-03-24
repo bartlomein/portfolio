@@ -24,7 +24,7 @@
         <span class="contact-not-email">
           <span class="info button">
             <a
-              href="https://drive.google.com/file/d/18dvEAuptFVViHEMuS-AG4k7o_nW2qD-r/view?usp=sharing"
+              href="https://drive.google.com/file/d/1GMoo4ZNAkas99E5PGgCVVDe1nxybQKl6/view?usp=sharing"
               target="_blank"
               >Resume</a
             >
