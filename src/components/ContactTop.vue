@@ -22,13 +22,13 @@
           </span>
         </span>
         <span class="contact-not-email">
-          <span class="info button">
+          <!-- <span class="info button">
             <a
               href="https://drive.google.com/file/d/1GMoo4ZNAkas99E5PGgCVVDe1nxybQKl6/view?usp=sharing"
               target="_blank"
               >Resume</a
             >
-          </span>
+          </span> -->
           <span class="info button">
             <a href="https://github.com/bartlomein" target="_blank">Github</a>
           </span>
