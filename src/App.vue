@@ -20,11 +20,12 @@
       <div id="port">Portfolio</div>
       <hr />
       <div class="card-container">
-        <Iambic />
+        <MarketMotion />
       </div>
       <div class="card-container">
-        <Friedchix />
+        <Iambic />
       </div>
+     
       <div class="card-container">
         <Soccer />
       </div>
@@ -47,15 +48,15 @@
 </template>
 
 <script>
+import Checkpoint from "./components/Checkpoint.vue";
+import ContactTop from "./components/ContactTop.vue";
+import Iambic from "./components/Iambic.vue";
+import MarketMotion from "./components/MarketMotion.vue";
+import Rap from "./components/Rap.vue";
+import Soccer from "./components/Soccer.vue";
+import Tech from "./components/Tech.vue";
 import Terminal from "./components/Terminal.vue";
 import TopMenu from "./components/TopMenu.vue";
-import ContactTop from "./components/ContactTop.vue";
-import Friedchix from "./components/Friedchix.vue";
-import Iambic from "./components/Iambic.vue";
-import Soccer from "./components/Soccer.vue";
-import Checkpoint from "./components/Checkpoint.vue";
-import Rap from "./components/Rap.vue";
-import Tech from "./components/Tech.vue";
 
 export default {
   name: "app",
@@ -64,9 +65,9 @@ export default {
     TopMenu,
     ContactTop,
     Iambic,
-    Friedchix,
     Soccer,
     Checkpoint,
+    MarketMotion,
     Rap,
     Tech
   }
