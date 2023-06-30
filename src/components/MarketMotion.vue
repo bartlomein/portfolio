@@ -1,7 +1,7 @@
 <template>
     <div id="fried-chix">
       <div class="image">
-        <img src="../assets/mm2.jpg" alt srcset />
+        <img src="../assets/mm3.jpg" alt srcset />
       </div>
   
       <div class="fried-chix-text">
@@ -76,7 +76,7 @@
   .link-and-github {
     max-width: 50%;
     font-size: 20px;
-    margin: 60px 30px 70px 0px;
+    margin: 30px 30px 50px 0px;
   }
   
   .fried-chix-text {
