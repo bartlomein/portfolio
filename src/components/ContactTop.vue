@@ -42,6 +42,13 @@
               >LinkedIn</a
             >
           </span>
+          <span class="info button">
+            <a
+              href="https://drive.google.com/file/d/1iy7lybCTnLqh1RssSVjOM7o_ATeWuITn/view?usp=sharing"
+              target="_blank"
+              >CV</a
+            >
+          </span>
         </span>
       </div>
     </div>
