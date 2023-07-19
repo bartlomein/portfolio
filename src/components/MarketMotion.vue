@@ -16,7 +16,7 @@
           <div></div>
         </div>
         <div class="link-and-github">
-          <span class="link button">
+          <span class="link button single">
             <a href="https://marketmotion.io" target="_blank">
               <font-awesome-icon icon="link" size="1x" />URL
             </a>
@@ -41,7 +41,7 @@
   
   <style scoped>
   .link {
-    margin-right: 20px;
+
     color: white;
     border: 2px solid #ff715b;
     background-color: #ff715b;
@@ -65,8 +65,8 @@
   #fried-chix {
     background-color: white;
     position: relative;
-    height: 400px;
-    max-height: 400px;
+    height: 450px;
+    max-height: 450px;
     max-width: 100%;
     width: 1000px;
     border-radius: 5px;
@@ -74,7 +74,8 @@
     color: #231f20;
   }
   .link-and-github {
-    max-width: 50%;
+
+    display: flex;
     font-size: 20px;
     margin: 30px 30px 50px 0px;
   }
@@ -99,6 +100,11 @@
   }
   .button svg {
     padding-right: 5px;
+  }
+  @media only screen and (max-width: 600px) {
+    .button{
+      margin: 20px auto;
+    }
   }
   </style>
   

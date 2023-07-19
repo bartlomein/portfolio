@@ -245,7 +245,11 @@ hr {
 }
 
 /*MEDIA QUERIES*/
-
+@media only screen and (min-width: 1000px) {
+.single{
+  margin:0 !important;
+}
+}
 @media only screen and (max-width: 1000px) {
   .technolojeesus {
     margin: 2px;

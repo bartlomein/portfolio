@@ -66,8 +66,8 @@ export default {};
 #iambic {
   background-color: white;
   position: relative;
-  height: 400px;
-  max-height: 400px;
+  height: 450px;
+  max-height: 450px;
   max-width: 100%;
   width: 1000px;
   border-radius: 5px;
