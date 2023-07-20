@@ -57,7 +57,7 @@ export default {};
 #fried-chix {
   background-color: white;
   position: relative;
-  height: auto;
+  height: 450px;
   max-height: 450px;
   max-width: 100%;
   width: 1000px;
