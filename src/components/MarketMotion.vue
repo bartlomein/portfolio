@@ -21,11 +21,17 @@
               <font-awesome-icon icon="link" size="1x" />URL
             </a>
           </span>
+          <span class="link button single">
+            <a href="https://apps.apple.com/us/app/marketmotion/id6479219751" target="_blank">
+              <font-awesome-icon icon="link" size="1x" />React Native App
+            </a>
+          </span>
           
         </div>
         <div class="built-with">
           <span class="technolojeesus">NextJS</span>
           <span class="technolojeesus">Typescript</span>
+
           <span class="technolojeesus">Apollo GQL</span>
           <span class="technolojeesus">Prisma</span>
           <span class="technolojeesus">PostgreSQL</span>
@@ -41,12 +47,13 @@
   
   <style scoped>
   .link {
-
+    margin-right: 20px !important;
     color: white;
     border: 2px solid #ff715b;
     background-color: #ff715b;
     border-radius: 5px;
     padding: 7px;
+
   }
   .git {
     color: black;
