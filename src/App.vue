@@ -42,7 +42,7 @@
     <div class="card-container contact-container">
       <ContactTop />
     </div>
-    <div class="bottom-footer">Bartlomiej Tyrpien 2023</div>
+    <div class="bottom-footer">Bartlomiej Tyrpien 2025</div>
     <br />
   </div>
 </template>
