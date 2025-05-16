@@ -44,7 +44,7 @@
           </span>
           <span class="info button">
             <a
-              href="https://drive.google.com/file/d/1Qu3iMiUCGBELidJ3Uqtk6aaF6-34HwHQ/view?usp=sharing"
+              href="https://drive.google.com/file/d/1coP5qcQr9Rr8dOWLVmcsAx8Y0VmUkXlW/view?usp=sharing"
               target="_blank"
               >CV</a
             >
