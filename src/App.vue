@@ -20,6 +20,9 @@
       <div id="port">Portfolio</div>
       <hr />
       <div class="card-container">
+        <TelemetryStudio />
+      </div>
+      <div class="card-container">
         <MarketMotion />
       </div>
       <div class="card-container">
@@ -54,6 +57,7 @@ import Iambic from "./components/Iambic.vue";
 import MarketMotion from "./components/MarketMotion.vue";
 import Rap from "./components/Rap.vue";
 import Soccer from "./components/Soccer.vue";
+import TelemetryStudio from "./components/TelemetryStudio.vue";
 import Tech from "./components/Tech.vue";
 import Terminal from "./components/Terminal.vue";
 import TopMenu from "./components/TopMenu.vue";
@@ -66,6 +70,7 @@ export default {
     ContactTop,
     Iambic,
     Soccer,
+    TelemetryStudio,
     Checkpoint,
     MarketMotion,
     Rap,
